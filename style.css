@@ -1,3 +1,82 @@
 #welcome {
     text-align: center;
 }
+
+#repo {
+}
+
+img {
+    margin-left: 200px;
+}
+
+* {
+    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+body {
+    background-color: #444;
+}
+
+.link a {
+    margin-left: 200px;
+    font-size: 30px;
+    text-decoration: none
+}
+
+.Discord {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    text-decoration: none;
+    background-color: #5165F6;
+    padding: 15px 35px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0 10px #999;
+}
+
+.Discord:active {
+    background-color: #3142D4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2, h3 {
+    margin-left: 200px;
+}
