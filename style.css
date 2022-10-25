@@ -14,6 +14,8 @@ img {
     font-family: 'Comic Sans', 'Comic Sans MS', cursive;
     color: white;
     text-decoration: none;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .sidenav {
@@ -42,7 +44,10 @@ img {
 
 body {
     background-color: #444;
-    height: 100vh;
+    height: 110vh;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-right: -20px
 }
 
 .link a {
