@@ -10,8 +10,15 @@ img {
     margin-left: 200px;
 }
 
+@font-face {
+  font-family: Comic Mono;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://dtinth.github.io/comic-mono-font/ComicMono.ttf");
+}
+
 * {
-    font-family: 'Comic Sans', 'Comic Sans MS', cursive;
+    font-family: Comic Mono;
     color: white;
     text-decoration: none;
     overflow-y: hidden; /* Hide vertical scrollbar */
