@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="leg-v0-1">LEG v0.1</h1>
+    <h3 id="overview-">OVERVIEW:</h3>
+    <ul>
+        <li>LEG is an acronym standing for Linux Execution Gang</li>
+        <li>The “Gang” in the name refers to the CPU cores of the processor, as they are a gang of cores that execute Linux and related processes</li>
+        <li>LEG has 256 bit instructions, meaning 256 bit registers</li>
+        <li>LEG will have two different types of firmware (which we calle “vibeware”) UEFl (Unified Extendable Firmware LEG), and OpenFirmware</li>
+        <li>The bootloader for UEFl will be an ELF (Executable LEG Format)</li>
+        <li>The file in which UEFl uses is efl/boot/bootleg.efl</li>
+        <li>The first LEG CPU will be released on leg day of 20xx</li>
+        <li>Everytime the LEGStation crashes it makes the “My LEG” sound from SpongeBob Square Pants</li>
+    </ul>
+    <h3 id="strasciiaddmuldivavg-">STRASCIIADDMULDIVAVG:</h3>
+    <ul>
+       <li>This is an added instruction to LEG, it’ll be standard on all LEG CPUs<ul>
+       <li>This instruction will take an an integer and a string</li>
+       <li>It converts each character of the string to their base 10 ASCII values and all added together</li>
+       <li>This new value is multiplied by the length of the string</li>
+       <li>Then this number is divided by the integer</li>
+       <li>Then we return the average of this new number and the integer</li>
+    </ul>
+    <h3 id="legos-">LEGOS:</h3>
+    <ul>
+        <li>LEGOS will only have one supported Window Manager and Desktop Environment</li>
+        <li>LEGDE (pronounced LEG DAY) will combine the best elements of the popular Desktop Environments, it will also have a mobile variant</li>
+        <li>LEGWM will have a floating and tiling version</li>
+    </ul>
+    <h3 id="middle-endian-">MIDDLE ENDIAN:</h3>
+    <ul>
+      <li>We start off with the word. The most significant byte of this word is stored in the middle</li>
+      <li>Then we take the two words that are on either side of the most significant byte</li>
+      <li>We put those words’ most significant bytes in the middle</li>
+      <li>Repeat until the entire word is sorted</li>
+   </ul>
+</body>
+</html>
